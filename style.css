@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  Header  */
+.nav-bar{
+    border: 2px solid black;
+    height: 100px;
+    background-color: gold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+}
+
+.nav-bar-list{
+display: flex;
+}
+
+.nav-bar-list-item{
+    padding: 50px;
+    font-size: 25px;
+}
+.nav-bar-list a{
+list-style: none;
+text-decoration: none;
+color: white;
+}
+
+/*  Main section */
+.main-page{
+    margin-top: 100px;
+    border: 2px solid black;
+    height: 85vh;
+    background-color: blueviolet; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.main-page-bg{
+    height: -webkit-fill-available;
+    width: 90%;
+}
+
+.main-page-txt{
+    position: absolute;
+    text-align: center;
+    /* justify-content: center; */
+    margin: 250px;
+    color: white;
+   
+}
+.main-page-heading{
+    font-size: 50px;
+}
+
+.main-page-heading-paragraph{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+/*projects */
+
+
+.my-projects{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.my-project-grid{
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 50px;
+}
+
+.my-project-grid-item{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.card{
+height: 90%;
+width: 90%;
+border: 2px solid black;
+box-shadow: 10px 10px 25px grey;
+}
+
+.card-top{
+    width: 100%;
+    height: 90%;
+    box-sizing: border-box;
+    
+}
+
+.card-top img{
+
+}
+
+
+
+.card-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color: burlywood;
+    border-top: 2px solid black;
+}
+
+
+
+/*Footer*/
+
+
+.bottom-footer{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around; 
+}
+
+
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-bottom, p{
+    color: white;
+    font-size: larger;
+    /* text-align: center; */
+    align-self: center;
+}
+}
